@@ -6,6 +6,8 @@ function App() {
 
   return (
     <div className='App'>
+      <FeatureAccess plan ="basic" feature ="dashboard"/>
+      <FeatureAccess plan ="premium"/>
       <FeatureAccess/>
     </div>
   )
